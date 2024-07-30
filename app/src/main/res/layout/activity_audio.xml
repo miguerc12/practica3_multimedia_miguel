@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#00BCD4"
+    tools:context=".activity_audio">
+
+    <Button
+        android:id="@+id/button_play_audioo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/button_pause_audioo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/button_back_audioo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar" />
+
+    <TextView
+        android:id="@+id/textViewImageDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C.R.O, DUKI, FMK - INTERESTELAR"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/imageViewExample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
+

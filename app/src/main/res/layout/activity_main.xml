@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/img"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:id="@+id/button_audio1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reproducir Audio" />
+
+    <Button
+        android:id="@+id/button_media_player1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Media Player" />
+
+    <Button
+        android:id="@+id/button_surface_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SurfaceView" />
+
+    <Button
+        android:id="@+id/button_video_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VideoView" />
+
+    <Button
+        android:id="@+id/button_foto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Foto" />
+
+
+    <TextView
+        android:layout_width="313dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="470dp"
+        android:text="Bienvenido a mi práctica 3: Multimedia"
+        android:textColor="#03A9F4"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

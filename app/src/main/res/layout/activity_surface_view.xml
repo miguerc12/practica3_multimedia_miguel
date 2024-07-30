@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#DF0F0F"
+    tools:context=".activity_surface_view">
+
+    <SurfaceView
+        android:id="@+id/surface_view3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/button_play_surface3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/button_pause_surface3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/button_back_surface3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar" />
+</LinearLayout>
+
